@@ -108,6 +108,14 @@ real    2m50.740s
 user    3m6.632s
 sys     0m15.757s
 ```
+---
+
+
+## 🚀 CONCLUSION
+
+### ⚠️ The inference worked, But the interpretation is WRONG as we have built a REGRESSION ONNX model but the inference was meant for CLASSIFICATION.
+### For this we have to have support for regression task inference inside CMSSW E2E pipeline. (Plan to work on this in future)
+### But, we have managed to test compatibility for running regression model inside CMSSW 😊.
 
 ---
 
